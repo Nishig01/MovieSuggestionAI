@@ -2,6 +2,7 @@
 import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
+import { FIREBASE_KEY } from "./constants";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -9,7 +10,7 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyBYUlV8J77N7UzE3pBXeEWlp93pIOYUC6Y",
+  apiKey: FIREBASE_KEY,
   authDomain: "netflixgpt-e65c1.firebaseapp.com",
   projectId: "netflixgpt-e65c1",
   storageBucket: "netflixgpt-e65c1.appspot.com",
